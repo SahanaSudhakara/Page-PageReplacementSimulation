@@ -1,6 +1,3 @@
-Assigment submitted by Sahana Sudhakara
-email: SSudhakara@scu.edu
-
 **Title:Page Replacement Simulation**
 
 This project implements a page replacement simulation using various algorithms. It allows you to evaluate the performance of different page replacement algorithms by simulating their execution on a set of processes.
