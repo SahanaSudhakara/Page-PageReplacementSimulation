@@ -1,0 +1,39 @@
+Assigment submitted by Sahana Sudhakara
+email: SSudhakara@scu.edu
+
+runTime = 1
+Time Stamp   | Process  | Enter/exit | Arrival Time | Size in Pages
+------------------------------------------------------------------
+
+
+1016602705   | Process = C |Enter     | 1      | 4            | 1       
+Memory Map:
+
+
+
+1016602717   | Process = BM |Enter     | 4      | 2            | 1       
+Memory Map:
+C..37 C..36 C..32 C..24 
+Swapped out process is C with evicted page Number 37
+Swapped out process is BM with evicted page Number 77
+
+The output represents a log of process details and the corresponding memory map at different time stamps. Additionally, it mentions the swapped out processes and their evicted page numbers.
+
+Time Stamp: The timestamp of the log entry.
+Process: The name of the process.
+Enter/exit: Indicates whether the process enters or exits.
+Arrival Time: The time at which the process arrives.
+Size in Pages: The size of the process in pages.
+Here's a breakdown of the provided output:
+
+At time stamp 1016602705:
+Process C enters with a size of 4 pages.
+Memory Map: Empty (no pages allocated yet).
+At time stamp 1016602717:
+Process BM enters with a size of 2 pages.
+Memory Map: Pages allocated for Process C at page 37, 36, 32, and 24.
+Additionally, the output mentions the swapped out processes and their evicted page numbers. It indicates that process C was swapped out, and its page number 37 was evicted. Similarly, process BM was also swapped out, and its page number 77 was evicted.
+
+
+
+
